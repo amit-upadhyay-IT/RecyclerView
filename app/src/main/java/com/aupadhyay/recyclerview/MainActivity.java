@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2, GridLayoutManager.HORIZONTAL, false);
         llm = new LinearLayoutManager(this);
         glm = new GridLayoutManager(this, 2);
-        recyclerView.setLayoutManager(glm); // display in list view.
+        recyclerView.setLayoutManager(glm); // display in Grid view.
         flag = false;
         recyclerView.setAdapter(imageAdapter);
 

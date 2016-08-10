@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imageList.add(id7);
 
         imageAdapter = new ImageAdapter(this, R.layout.recycler_row, imageList);
+        //GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2, GridLayoutManager.HORIZONTAL, false);
         llm = new LinearLayoutManager(this);
         glm = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(glm); // display in list view.
